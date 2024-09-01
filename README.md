@@ -71,13 +71,13 @@ Realiza tus cambios y haz un commit (git commit -am 'Agrega nueva funcionalidad'
 Sube tus cambios a la rama (git push origin feature/nueva-funcionalidad).
 Abre un Pull Request.
 
-##Licencia
+## Licencia
   Este proyecto está licenciado bajo la MIT License.
 
-##Contacto
+## Contacto
   Para más información o consultas sobre el proyecto, puedes contactarnos a través de:
 
   Correo electrónico: info@arservicios.com
   
-  ###Este proyecto fue desarrollado con dedicación y pasión por el equipo de AR Servicios, utilizando las mejores prácticas de desarrollo y un enfoque         centrado en el usuario final.
+  ### Este proyecto fue desarrollado con dedicación y pasión por el equipo de AR Servicios, utilizando las mejores prácticas de desarrollo y un enfoque         centrado en el usuario final.
   
