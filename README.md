@@ -1,6 +1,6 @@
 # AR Servicios - Frontend
 
-![AR Servicios Logo](../../../assets/images/AR_Servicios_LOGO_1.png)
+![AR Servicios Logo](../../../assets/images/wallpaper_hero_section_2.png)
 
 ## Descripción del Proyecto
 
