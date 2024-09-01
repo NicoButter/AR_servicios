@@ -1,6 +1,6 @@
 # AR Servicios - Frontend
 
-![AR Servicios Logo](assets/images/AR_Servicios_LOGO_1.png)
+![AR Servicios Logo](../../../assets/images/AR_Servicios_LOGO_1.png)
 
 ## Descripción del Proyecto
 
@@ -44,18 +44,18 @@ Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
     ng serve
   ```
 
-###Luego, abre tu navegador y navega a http://localhost:4200/ para ver la aplicación en funcionamiento.
+### Luego, abre tu navegador y navega a http://localhost:4200/ para ver la aplicación en funcionamiento.
 
-##Uso
+## Uso
   La aplicación está diseñada para ser intuitiva y fácil de usar. Los visitantes pueden:
 
-##Explorar Servicios: Ver la lista de servicios disponibles con detalles y fotos.
+## Explorar Servicios: Ver la lista de servicios disponibles con detalles y fotos.
 
-##Ver el Estado del Taller: Consultar en tiempo real si el taller está abierto o cerrado.
+## Ver el Estado del Taller: Consultar en tiempo real si el taller está abierto o cerrado.
 
-##Contactar al Taller: Acceder a información de contacto y ubicación.
+## Contactar al Taller: Acceder a información de contacto y ubicación.
 
-###Desarrollo
+### Desarrollo
 Este proyecto se desarrolló bajo un enfoque ágil, con iteraciones regulares y una estrecha colaboración entre desarrolladores y stakeholders. La elección de Angular como framework se debió a su robustez y capacidad para manejar aplicaciones de una sola página (SPA) de manera eficiente.
 
 Contribución
