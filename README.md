@@ -77,7 +77,7 @@ Abre un Pull Request.
 ## Contacto
   Para más información o consultas sobre el proyecto, puedes contactarnos a través de:
 
-  Correo electrónico: info@arservicios.com
+  Correo electrónico: nicobutter@gmail.com
   
   ### Este proyecto fue desarrollado con dedicación y pasión por el equipo de AR Servicios, utilizando las mejores prácticas de desarrollo y un enfoque         centrado en el usuario final.
   
