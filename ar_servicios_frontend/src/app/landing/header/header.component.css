@@ -1,60 +1,32 @@
 header {
-    padding: 2%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #071220;
     border-bottom: 1px solid #ddd;
     position: relative;
+    padding: 10px 0;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
-    position: relative; 
-}
-
-.logo img {
-    margin-top: 90px;
-    height: 280px; 
-    position: absolute;
-    top: 50%; 
-    transform: translateY(-50%); 
-    left: 20px; 
+    padding: 0 20px;
+    position: relative;
 }
 
 .title {
-    margin-left: 300px; 
+    margin: 0 auto; 
+    text-align: center;
 }
 
-.title h1 {
-    font-size: 24px;
+.title img {
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.title h4 {
+    font-size:25px;
     color: #fff;
     margin: 0;
-}
-
-.status {
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-/* #shop-status {
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #e74c3c; 
-} */
-
-.open {
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #2ecc71; 
-}
-
-.close {
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #ca1313; 
 }
 
 .social-media {
@@ -65,14 +37,26 @@ nav {
 
 .social-icon {
     font-size: 20px;
-    color: #fff; 
+    color: #fff;
     text-decoration: none;
 }
 
 .social-icon:hover {
-    color: #007bff; 
+    color: #007bff;
 }
 
 .social-icon i {
     transition: color 0.3s;
+}
+
+#shop-status-bar {
+    height: 5px;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    line-height: 5px;
+    font-size: 14px;
+    padding: 15px 0;
 }

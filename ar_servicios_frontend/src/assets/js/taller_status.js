@@ -1,17 +1,18 @@
-function checkShopStatus() {
-    const statusElement = document.getElementById('shop-status');
+function updateShopStatus() {
     const now = new Date();
-    const currentHour = now.getHours();
-    const openHour = 12; // 12:00 PM
-    const closeHour = 21; // 21:00 PM
+    const hours = now.getHours();
+    const day = now.getDay();
+    const statusBar = document.getElementById('shop-status-bar');
+    const openHour = 12;
+    const closeHour = 21;
 
-    if (currentHour >= openHour && currentHour < closeHour) {
-        statusElement.textContent = "Estamos trabajando!";
-        statusElement.classList.add('open');
+    if (day >= 1 && day <= 5 && hours >= openHour && hours < closeHour) {
+        statusBar.style.backgroundColor = '#2ecc71'; 
+        statusBar.innerText = 'Estamos trabajando';
     } else {
-        statusElement.textContent = "Regresamos mañana";
-        statusElement.classList.remove('open');
+        statusBar.style.backgroundColor = '#ca1313';
+        statusBar.innerText = 'Cerrado';
     }
 }
 
-document.addEventListener('DOMContentLoaded', checkShopStatus);
+window.onload = updateShopStatus;
