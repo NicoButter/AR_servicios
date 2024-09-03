@@ -2,31 +2,20 @@ header {
     background-color: #071220;
     border-bottom: 1px solid #ddd;
     position: relative;
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     position: relative;
-}
-
-.title {
-    margin: 0 auto; 
-    text-align: center;
 }
 
 .title img {
     height: 250px;
-    margin-bottom: 10px;
-}
-
-.title h4 {
-    font-size:25px;
-    color: #fff;
-    margin: 0;
+    /* margin-bottom: 10px; */
 }
 
 .social-media {
