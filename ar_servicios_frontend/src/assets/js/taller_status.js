@@ -31,6 +31,7 @@ function checkOpenStatus() {
 
     if (now >= openingTime && now < closingTime) {
         statusElement.textContent = "Estamos trabajando";
+        statusElement.className = 'status-working'; // Clase para estado abierto
         countdownElement.textContent = ""; // Limpiar el contador
 
         // Calcular tiempo restante hasta el cierre
@@ -44,6 +45,7 @@ function checkOpenStatus() {
         }
     } else {
         statusElement.textContent = "Estamos cerrados";
+        statusElement.className = 'status-closed'; // Clase para estado cerrado
         countdownElement.textContent = ""; // Limpiar el contador
     }
 }
