@@ -1,44 +1,16 @@
-.location {
-    padding: 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
 .map {
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    overflow: hidden;
     margin-top: 20px;
 }
 
-iframe {
+.map iframe {
     width: 100%;
-    height: 450px;
-    border: none;
+    height: 100%;
+    transition: transform 0.3s ease;
 }
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
-    .location h2 {
-        font-size: 28px; /* Reduce el tamaño del título */
-    }
-
-    .location p {
-        font-size: 16px; /* Reduce el tamaño del texto */
-    }
-
-    iframe {
-        height: 300px; /* Reduce la altura del mapa en tabletas */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .location h2 {
-        font-size: 24px; /* Ajusta el tamaño del título para móviles */
-    }
-
-    .location p {
-        font-size: 14px; /* Ajusta el tamaño del texto para móviles */
-    }
-
-    iframe {
-        height: 200px; /* Ajusta la altura del mapa para móviles */
-    }
+.map:hover iframe {
+    transform: scale(1.02);
 }
