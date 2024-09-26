@@ -1,108 +1,13 @@
-header {
-    background-color: #071220;
-    border-bottom: 1px solid #ddd;
-    position: relative;
-    width: 100%; /* Asegúrate de que el header tenga un ancho completo */
-    padding: 10px 0; /* Ajusta el padding según sea necesario */
-    overflow: hidden; /* Oculta cualquier desbordamiento */
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0 10px; /* Asegúrate de que no haya padding */
-    margin: 0; /* Asegúrate de que no haya margen */
-}
-
-.title img {
-    max-width: 100%; /* Asegúrate de que la imagen no exceda el ancho del contenedor */
-    height: auto;
-    display: block; /* Elimina el espacio debajo de la imagen */
-    margin: 0; /* Asegúrate de que no haya margen */
-}
-
-.social-media {
-    display: flex;
-    gap: 15px;
-    margin-right: 20px;
+header .navbar-dark .navbar-brand,
+header .navbar-dark .navbar-toggler-icon,
+header .social-icon {
+    color: #fff; /* Asegura que el texto y los iconos sean blancos */
 }
 
 .social-icon {
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
+    font-size: 1.5rem; /* Aumentar el tamaño de los iconos */
 }
 
 .social-icon:hover {
-    color: #007bff;
-}
-
-#shop-status-bar {
-    height: 5px;
-    width: 100%;
-    background-color: red;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    line-height: 5px;
-    font-size: 14px;
-    padding: 15px 0;
-}
-
-/* Estilos para pantallas más pequeñas (tablets y móviles) */
-@media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column; /* Cambia a columna para pantallas más pequeñas */
-        align-items: center; /* Centra los elementos */
-    }
-
-    .title img {
-        height: 150px; /* Ajusta el tamaño de la imagen */
-    }
-
-    .social-media {
-        margin-top: 10px; /* Ajusta el margen según sea necesario */
-    }
-
-    .social-icon {
-        font-size: 18px;
-        /* Ajusta el tamaño de los íconos */
-    }
-
-    #shop-status-bar {
-        font-size: 12px;
-        /* Reduce el tamaño del texto */
-        padding: 10px 0;
-    }
-}
-
-/* Estilos para pantallas pequeñas (móviles) */
-@media screen and (max-width: 480px) {
-    nav {
-        align-items: center;
-        /* Centra elementos en móviles */
-    }
-
-    .title img {
-        height: 120px;
-        /* Reduce aún más el tamaño de la imagen */
-    }
-
-    .social-media {
-        gap: 10px;
-        /* Reduce el espacio entre íconos */
-    }
-
-    .social-icon {
-        font-size: 16px;
-        /* Ajusta el tamaño de los íconos */
-    }
-
-    #shop-status-bar {
-        font-size: 10px;
-        /* Ajusta el texto del bar */
-        padding: 8px 0;
-    }
+    color: #007bff; /* Cambia el color al azul en hover */
 }
