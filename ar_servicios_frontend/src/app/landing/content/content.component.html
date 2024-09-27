@@ -1,4 +1,4 @@
-<section class="hero text-center text-white d-flex align-items-center" style="background-image: url('assets/images/wallpaper_hero_section_2.png'); background-size: cover; height: 100vh;">
+<!-- <section class="hero text-center text-white d-flex align-items-center" style="background-image: url('assets/images/wallpaper_hero_section_2.png'); background-size: cover; height: 100vh;">
   <div class="container">
     <div class="hero-content">
       <h1 class="display-4">Bienvenido a AR Servicios</h1>
@@ -9,7 +9,26 @@
       </div>
     </div>
   </div>
+</section> -->
+
+<section class="hero text-center text-white d-flex align-items-center" style="background-image: url('assets/images/wallpaper_hero_section_2.png'); background-size: cover; height: 100vh;">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="display-4">Bienvenido a AR Servicios</h1>
+      <p class="lead">Expertos en mecánica general para todo tipo de vehículos. Con más de 20 años de experiencia, ofrecemos soluciones confiables y rápidas para mantener tu auto en las mejores condiciones.</p>
+      <div class="cta-buttons mt-4">
+        <a href="#services" class="btn btn-primary btn-lg me-2">Ver nuestros servicios</a>
+        <a [routerLink]="['/contact']" class="btn btn-outline-light btn-lg">Contáctanos</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mostrar el formulario de contacto solo si showContactForm es verdadero -->
+  <div *NgIf="showContactForm" class="mt-5">
+    <app-contact></app-contact>
+  </div>
 </section>
+
 
 <section class="content py-5">
   <div class="container">
