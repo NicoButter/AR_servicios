@@ -5,17 +5,17 @@ header .social-icon {
 }
 
 .social-icon {
-    color: #fff; /* Asegura que el texto sea blanco por defecto */
-    font-size: 1.5rem; /* Aumentar el tamaño de los iconos */
-    transition: color 0.3s; /* Agregar una transición suave al color */
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
 }
 
 .social-icon:hover {
-    color: #007bff; /* Cambia el color al azul en hover */
+    color: #007bff;
 }
 
 .status-bar {
-    margin:  0;
+    margin: 0;
 }
 
 #status,
@@ -24,7 +24,7 @@ header .social-icon {
 }
 
 .status-working {
-    background-color:green;
+    background-color: green;
     color: #fff;
 }
 
